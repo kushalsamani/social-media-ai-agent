@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "content_type": "video_script",
+      "topic": "The Saturday Night Spreadsheet Struggle",
+      "target_audience": "Social Media Managers",
+      "tags": [
+        "SMM Life",
+        "Excel Humor",
+        "Marketing Automation",
+        "Work Life Balance"
+      ],
+      "content": "Visual: Dark room, only light comes from a laptop screen reflecting off the SMM's tired face. Clock on the wall shows 8:30 PM. Audio: Sad violin music.\n\nText Overlay: POV: It's Saturday night and you're still cleaning CSV exports from the week.\n\nAction: SMM clicks 'Delete Column' over and over, sighing. Suddenly, the screen glows bright green. The AI-Powered Tool logo appears.\n\nAudio: Upbeat, futuristic 'ding'. Music shifts to high-energy lo-fi.\n\nAction: SMM types 'Clean this report and highlight top performing posts' into the AI prompt. The spreadsheet organizes itself instantly. SMM closes laptop and grabs a coat to head out.\n\nVoiceover: 'Stop wasting your weekends on manual data entry. Let our AI Agent handle the spreadsheets while you handle the social life.'\n\nCTA: Follow for more SMM productivity hacks! #SMM2026 #ExcelHacks #SocialMediaManager #MarketingAI"
+    },
+    {
+      "content_type": "video_script",
+      "topic": "Manual vs. AI: The TikTok Data Race",
+      "target_audience": "Agency Owners and SMMs",
+      "tags": [
+        "Efficiency",
+        "TikTok Analytics",
+        "AI vs Human",
+        "Productivity"
+      ],
+      "content": "Visual: Split screen.\nLeft Side (Manual): A timer starts at 0:00. SMM is frantically typing VLOOKUP formulas and dragging cells. Sweat on forehead.\nRight Side (AI): SMM types one sentence: 'Analyze these 500 rows of TikTok data and create a summary table.'\n\nAction: At 0:15, the Right Side is finished. A clean, color-coded table appears with a 'Best Posting Time' chart. The Left Side timer is at 15:00 and they are still fixing a #REF error.\n\nVoiceover: 'Manual data cleaning takes 30 minutes. Our AI tool does it in 30 seconds. Which one would you choose?'\n\nText Overlay: 30 Mins vs. 30 Seconds. \n\nCTA: Try it free and reclaim your time. Link in bio! #MarketingAutomation #TikTokSEO #ExcelTips #BusinessEfficiency"
+    },
+    {
+      "content_type": "video_script",
+      "topic": "How-To: The Best Posting Time Macro",
+      "target_audience": "Small Business Owners",
+      "tags": [
+        "Tutorial",
+        "Excel Macros",
+        "Data Strategy",
+        "SMM Tips"
+      ],
+      "content": "Visual: Screen recording of a messy Excel sheet filled with engagement data. \n\nHost (Voiceover): 'Stop guessing when to post. Let's build a custom macro in 5 seconds.'\n\nAction: Mouse clicks the AI Tool sidebar. Types: 'AI, generate a macro to find my highest engagement hours from this data and create a heatmap.'\n\nVisual: Code generates instantly in the background and a vibrant heatmap appears on the spreadsheet, highlighting 6 PM on Tuesdays.\n\nHost: 'Now, every time I drop new data in, one click tells me exactly when my audience is active. No coding required.'\n\nText Overlay: Data-Driven Decisions > Guessing.\n\nCTA: Get the tool at the link in bio! #SocialMediaStrategy #ExcelMacros #DataAnalytics #SmallBizTips"
+    },
+    {
+      "content_type": "video_script",
+      "topic": "Day in the Life: The Automated SMM",
+      "target_audience": "Freelance SMMs",
+      "tags": [
+        "Productivity",
+        "SMM Workflow",
+        "Lifestyle",
+        "AI Agency"
+      ],
+      "content": "Visual: Fast-paced montage. \n1. Pouring fresh coffee (08:00 AM).\n2. Opening a massive spreadsheet.\n3. Clicking 'Automate Report' in the AI Tool.\n4. Walking the dog in the park (09:30 AM).\n5. Filming creative content in a studio (11:00 AM).\n\nVoiceover: 'How I reclaimed 5 hours of my week as a Social Media Manager. I stopped fighting my spreadsheets and started using an AI Agent. While it cleans my data and builds my client reports, I focus on the creative work I actually love.'\n\nText Overlay: 10 hours of reporting -> 10 minutes.\n\nCTA: Join the community of automated SMMs. Link in bio. #SMMlife #FreelanceTips #WorkSmarter #MarketingTools"
+    },
+    {
+      "content_type": "video_script",
+      "topic": "Feature Spotlight: The Insight Generator",
+      "target_audience": "SMB Owners",
+      "tags": [
+        "Business Growth",
+        "AI Insights",
+        "Social Media ROI",
+        "Strategy"
+      ],
+      "content": "Visual: Host holding a phone, looking at a confusing bar chart on a laptop.\n\nHost: 'Charts are great, but what do they actually MEAN for your business?'\n\nAction: Host clicks the 'Generate Insights' button in the AI Tool. A text bubble pops up: 'Your Reels about \"Sustainability\" are driving 40% more sales than your static posts. Triple down on video next month.'\n\nHost: 'Our Insight Generator doesn't just show you numbers; it tells you exactly what to post next to grow your ROI. It's like having a data scientist in your pocket.'\n\nText Overlay: From Raw Data to Real Strategy.\n\nCTA: Download our free 2026 Social Audit template to see it in action! #BusinessOwner #SocialMediaROI #AIforBusiness #MarketingStrategy"
+    },
+    {
+      "content_type": "video_script",
+      "topic": "The Broken Formula Challenge",
+      "target_audience": "Social Media Managers and Marketers",
+      "tags": [
+        "Excel Help",
+        "Engagement Challenge",
+        "Marketing Data",
+        "Problem Solving"
+      ],
+      "content": "Visual: Host pointing at a screen showing a giant #VALUE! error in a complex marketing spreadsheet.\n\nHost: 'Is your Excel formula currently breaking your brain? Don't delete the file yet!'\n\nAction: Host copies the broken formula into the AI Tool. Types: 'Why is this broken and how do I fix it for my engagement report?'\n\nVisual: The AI explains the error and provides the corrected formula. Host pastes it back, and the spreadsheet populates perfectly.\n\nHost: 'We're fixing your spreadsheet nightmares. Comment your most frustrating Excel error below and our AI will write the fix for you!'\n\nText Overlay: Comment your #ExcelNightmare below! 👇\n\nCTA: Follow for the fixes! #ExcelTips #SMMProblems #MarketingData #AIHelp"
+    }
+  ]
+}
