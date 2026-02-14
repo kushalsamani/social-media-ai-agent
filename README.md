@@ -5,6 +5,8 @@
 
 Multi-agent marketing workflow built with CrewAI to generate market research, strategy, content calendars, social posts, reels, blog drafts, and SEO-optimized content.
 
+It also includes a post-processing renderer that converts generated JSON content into individual Markdown files for easier review and publishing.
+
 ## What This Project Does
 
 This project runs a sequential AI crew that plans and drafts a full content pipeline for a product:
@@ -20,6 +22,8 @@ This project runs a sequential AI crew that plans and drafts a full content pipe
 
 Outputs are written to `resources/drafts/`.
 
+Structured JSON outputs can be rendered into Markdown files under `resources/rendered/`.
+
 ## Tech Stack
 
 - Python 3.13+
@@ -33,6 +37,7 @@ Outputs are written to `resources/drafts/`.
 ```text
 .
 |-- marketing_crew.py              # Main crew definition + kickoff
+|-- render_markdown.py             # Converts generated JSON outputs to Markdown files
 |-- config/
 |   |-- agents.yaml                # Agent roles/goals/backstories
 |   `-- task.yaml                  # Task prompts + expected output formats
@@ -46,6 +51,12 @@ Outputs are written to `resources/drafts/`.
     `-- blogs/
         |-- blog_content_research.md
         `-- blog_drafts.json
+
+`-- resources/rendered/
+    |-- post_drafts/
+    |-- reel_scripts/
+    |-- blogs/
+    `-- seo/
 ```
 
 ## Agents
@@ -92,6 +103,12 @@ python marketing_crew.py
 
 The script uses default input values in `marketing_crew.py` (`product_name`, `product_description`, `target_audience`, `budget`, and current date), then executes tasks sequentially.
 
+To render JSON outputs into individual Markdown files:
+
+```bash
+python render_markdown.py
+```
+
 ## Output Format
 
 Some tasks return structured JSON validated by this schema:
@@ -111,6 +128,8 @@ Some tasks return structured JSON validated by this schema:
 ```
 
 Markdown outputs are generated for research and calendar artifacts.
+
+`render_markdown.py` also generates Markdown files from JSON content items (`post_drafts`, `reel_scripts`, `blog_drafts`, and `seo_optimized_content`) into `resources/rendered/<content_group>/`.
 
 ## Customize
 
@@ -132,6 +151,7 @@ Update the `LLM(...)` configuration in `marketing_crew.py`.
 - Workflow is `Process.sequential` with `planning=False`.
 - Rate limits are configured via `max_rpm` per agent and crew.
 - Draft directories are ensured at runtime (`resources/drafts` and `resources/drafts/blogs`).
+- Rendered output directories are created automatically by `render_markdown.py` (`resources/rendered/...`).
 
 ## Next Improvements
 
