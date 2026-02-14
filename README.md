@@ -1,5 +1,5 @@
 ﻿![GitHsub stars](https://img.shields.io/github/stars/kushalsamani/social-media-ai-agent)
-![License](https://img.shields.io/github/license/kushalsamani/social-media-ai-agent)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # Social Media AI Agent
 
