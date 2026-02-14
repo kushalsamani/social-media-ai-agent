@@ -1,4 +1,7 @@
-﻿# Social Media AI Agent
+﻿![GitHsub stars](https://img.shields.io/github/stars/kushalsamani/social-media-ai-agent)
+![License](https://img.shields.io/github/license/kushalsamani/social-media-ai-agent)
+
+# Social Media AI Agent
 
 Multi-agent marketing workflow built with CrewAI to generate market research, strategy, content calendars, social posts, reels, blog drafts, and SEO-optimized content.
 
