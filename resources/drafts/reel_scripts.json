@@ -2,75 +2,147 @@
   "items": [
     {
       "content_type": "video_script",
-      "topic": "The Saturday Night Spreadsheet Struggle",
-      "target_audience": "Social Media Managers",
+      "topic": "POV: You’re manually cleaning TikTok exports at 9:00 AM.",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
       "tags": [
-        "SMM Life",
-        "Excel Humor",
-        "Marketing Automation",
-        "Work Life Balance"
+        "TikTokMarketing",
+        "SocialOps",
+        "Automation",
+        "SMMTips"
       ],
-      "content": "Visual: Dark room, only light comes from a laptop screen reflecting off the SMM's tired face. Clock on the wall shows 8:30 PM. Audio: Sad violin music.\n\nText Overlay: POV: It's Saturday night and you're still cleaning CSV exports from the week.\n\nAction: SMM clicks 'Delete Column' over and over, sighing. Suddenly, the screen glows bright green. The AI-Powered Tool logo appears.\n\nAudio: Upbeat, futuristic 'ding'. Music shifts to high-energy lo-fi.\n\nAction: SMM types 'Clean this report and highlight top performing posts' into the AI prompt. The spreadsheet organizes itself instantly. SMM closes laptop and grabs a coat to head out.\n\nVoiceover: 'Stop wasting your weekends on manual data entry. Let our AI Agent handle the spreadsheets while you handle the social life.'\n\nCTA: Follow for more SMM productivity hacks! #SMM2026 #ExcelHacks #SocialMediaManager #MarketingAI"
+      "content": "[Visual: Frustrated SMM staring at a screen full of messy data. Text overlay: 9:00 AM Monday]. \"POV: You just exported your TikTok data and it's a disaster. You've got 4 hours of cleaning ahead of you before you can even start the report. [Visual: SMM clicks one button. Screen transforms into a clean, beautiful chart.] Or... you could use an AI that actually understands social exports. Our Social Ops engine cleans, formats, and analyzes your data in seconds. Stop wasting your brainpower on CSVs and start focusing on the strategy that actually grows your brand. Click the link in my bio to automate your reporting today!\""
     },
     {
       "content_type": "video_script",
-      "topic": "Manual vs. AI: The TikTok Data Race",
-      "target_audience": "Agency Owners and SMMs",
+      "topic": "3 Signs Your Spreadsheet is Controlling Your Life",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "ProductivityHacks",
+        "ExcelTips",
+        "AIforBusiness",
+        "WorkLifeBalance"
+      ],
+      "content": "\"3 signs your spreadsheet is controlling your life. One: You see VLOOKUP formulas when you close your eyes. Two: You spend more time cleaning CSVs than actually posting content. Three: You’re terrified of a 'Value Error' ruining your client meeting. [Visual: Quick cuts of the tool working]. It’s 2026. You shouldn't be a data janitor. Our AI-Powered tool handles the 'Social Logic' for you, fixing formulas and cleaning messy platform exports instantly. Stop the manual madness. Try our AI-Powered Audit Tool for free and take your life back.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "The Hidden Cost of Manual Reporting Errors",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "MarketingROI",
+        "DataAccuracy",
+        "AgencyLife",
+        "SocialMediaStrategy"
+      ],
+      "content": "\"Manual reporting isn't just slow—it's expensive. One wrong copy-paste and your client's ROI looks like a disaster. [Visual: Split screen - Manual vs AI]. When you're managing 5+ accounts, the risk of error grows every Monday. Our Social Ops engine eliminates the human error factor by automating the entire data cleaning process. It knows the difference between a reach and an impression export, so your reports are 100% accurate, every time. Don't let a typo cost you a client. Learn more about the hidden costs of manual reporting on our blog.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "Turning a messy CSV into a Pivot Table in 3.5 seconds",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "DataVisualization",
+        "ExcelMagic",
+        "SMMTools",
+        "TechTrends"
+      ],
+      "content": "\"[Visual: Stopwatch on screen. Messy spreadsheet file being dragged into the tool.] 3... 2... 1... Done. [Visual: Clean Pivot table appears]. That was a raw TikTok export turned into a board-ready pivot table in under 4 seconds. No manual formatting, no broken formulas, and zero stress. If you're an SMM or an SMB owner, you don't have time to be a data scientist. Let our AI do the heavy lifting so you can get back to the work that actually moves the needle. Ready to see the magic for yourself? Link in bio to try it free!\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "How to calculate Follower-to-Engagement ratio without formulas",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "SocialMediaMetrics",
+        "NoCode",
+        "AITools",
+        "Tutorial"
+      ],
+      "content": "\"Stop googling Excel formulas. Here’s how to calculate your Follower-to-Engagement ratio without writing a single line of code. [Visual: Screen recording showing the user simply asking the AI 'Calculate my engagement ratio']. Just upload your platform export and tell our AI what you want to see. It understands 'Social Logic,' so it knows exactly which columns to use. No VLOOKUPs, no math, just insights. It’s like having a data analyst in your pocket for the price of a coffee. Save this video for later so you never have to manual calculate again!\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "\"Enterprise Power, SMB Price\" — Why you don't need a $30/mo Copilot seat",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "BusinessTools",
+        "SaaS",
+        "BudgetFriendly",
+        "AIBusiness"
+      ],
+      "content": "\"Why pay $30 a month for a generalist AI when you can get a specialized social data expert for half that? [Visual: Price comparison graphic]. Microsoft Copilot is great, but it doesn't know the difference between a TikTok 'Like' and a Meta 'Conversion' export without a lot of prompting. Our tool is built specifically for SMMs and SMBs. It’s pre-loaded with social logic to clean your data and build your reports instantly. Enterprise power, SMB price. Sign up today for just $15 a month and stop overpaying for general AI.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "\"I used to hate Mondays. Now I'm done by 10 AM.\" — Verified User",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "CustomerSuccess",
+        "Productivity",
+        "MondayMotivation",
+        "SMMWorkflow"
+      ],
+      "content": "\"[Visual: Happy SMM sitting in a cafe with a laptop]. 'I used to spend my entire Monday morning drowning in spreadsheets. Now? I’m done by 10 AM.' That’s the power of the AI Social Ops engine. We’re helping thousands of social media managers reclaim their time by automating the 'boring' part of the job. No more cleaning data, no more fixing broken macros. Just upload, automate, and enjoy your coffee. Ready to join the 10 AM club? Start your free trial today and never hate Mondays again.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "POV: Your boss asks for a report and you’re already at lunch.",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "WorkLife",
+        "SocialMediaManager",
+        "AgencyLife",
+        "OfficeHumor"
+      ],
+      "content": "\"POV: Your boss Slacks you at 12:30 asking for the weekly ROI report... and you’re already at lunch. [Visual: SMM smiling, eating a taco]. In the past, this would be a panic attack. Now? You just open your phone, let the AI clean the latest export, and send the link. [Visual: Quick phone screen recording]. Our tool turns 4 hours of reporting into 4 minutes of work. Be the 'Data Wizard' of your team without breaking a sweat. Check out our tool at the link in bio and start living that stress-free lunch life.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "Top 5 User-Created Macros of the Month",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "Community",
+        "ExcelMacros",
+        "MarketingAutomation",
+        "DataDriven"
+      ],
+      "content": "\"Our community is officially genius. Here are the top 5 user-created macros of the month! [Visual: Fast cuts of 5 different report styles]. From 'Automatic Influencer ROI' to 'Cross-Platform Sentiment Analysis,' these are the workflows saving SMMs dozens of hours every week. The best part? You don't need to know how to code to use them. Just click 'Import' and watch the AI do the work. Want access to the full library? Join our community of data-driven social managers today and start working smarter, not harder.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "Manual Reporting vs. AI-Powered Reporting: The Race",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
       "tags": [
         "Efficiency",
-        "TikTok Analytics",
-        "AI vs Human",
-        "Productivity"
+        "AIVsHuman",
+        "MarketingTools",
+        "ReelsTrends"
       ],
-      "content": "Visual: Split screen.\nLeft Side (Manual): A timer starts at 0:00. SMM is frantically typing VLOOKUP formulas and dragging cells. Sweat on forehead.\nRight Side (AI): SMM types one sentence: 'Analyze these 500 rows of TikTok data and create a summary table.'\n\nAction: At 0:15, the Right Side is finished. A clean, color-coded table appears with a 'Best Posting Time' chart. The Left Side timer is at 15:00 and they are still fixing a #REF error.\n\nVoiceover: 'Manual data cleaning takes 30 minutes. Our AI tool does it in 30 seconds. Which one would you choose?'\n\nText Overlay: 30 Mins vs. 30 Seconds. \n\nCTA: Try it free and reclaim your time. Link in bio! #MarketingAutomation #TikTokSEO #ExcelTips #BusinessEfficiency"
+      "content": "\"[Visual: Split screen. Left side: Manual (typing fast, looking stressed). Right side: AI (one click, relaxing)]. It’s a race! Who can finish the monthly client report first? [Visual: Left side is still highlighting cells. Right side is already done and exporting a PDF]. The results are in. AI wins every time. If you're still doing it the manual way, you're losing hours of your life every single month. It’s time to upgrade your workflow to 2026 standards. Link in bio to win the race and get your time back!\""
     },
     {
       "content_type": "video_script",
-      "topic": "How-To: The Best Posting Time Macro",
-      "target_audience": "Small Business Owners",
+      "topic": "5 Data Points Every SMB Owner is Missing Right Now",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
+      "tags": [
+        "BusinessGrowth",
+        "MarketingAnalytics",
+        "SMBTips",
+        "DataStrategy"
+      ],
+      "content": "\"5 data points every SMB owner is missing because their spreadsheets are too messy. One: True Follower-to-Sale conversion rate. Two: Best performing day of the week by actual ROI. Three: Cross-platform audience overlap. Four: Creative fatigue indicators. And Five: The cost of your own time spent cleaning data. [Visual: Tool dashboard showing these metrics]. Stop guessing and start growing. Our AI finds the insights hidden in your messy exports so you can make better decisions. Click the link to see what you're missing.\""
+    },
+    {
+      "content_type": "video_script",
+      "topic": "From Messy Data to Board-Ready Insights: A Step-by-Step",
+      "target_audience": "Small to Medium-sized Businesses (SMBs) and Social Media Managers",
       "tags": [
         "Tutorial",
-        "Excel Macros",
-        "Data Strategy",
-        "SMM Tips"
+        "BusinessIntelligence",
+        "MarketingReporting",
+        "StepByStep"
       ],
-      "content": "Visual: Screen recording of a messy Excel sheet filled with engagement data. \n\nHost (Voiceover): 'Stop guessing when to post. Let's build a custom macro in 5 seconds.'\n\nAction: Mouse clicks the AI Tool sidebar. Types: 'AI, generate a macro to find my highest engagement hours from this data and create a heatmap.'\n\nVisual: Code generates instantly in the background and a vibrant heatmap appears on the spreadsheet, highlighting 6 PM on Tuesdays.\n\nHost: 'Now, every time I drop new data in, one click tells me exactly when my audience is active. No coding required.'\n\nText Overlay: Data-Driven Decisions > Guessing.\n\nCTA: Get the tool at the link in bio! #SocialMediaStrategy #ExcelMacros #DataAnalytics #SmallBizTips"
-    },
-    {
-      "content_type": "video_script",
-      "topic": "Day in the Life: The Automated SMM",
-      "target_audience": "Freelance SMMs",
-      "tags": [
-        "Productivity",
-        "SMM Workflow",
-        "Lifestyle",
-        "AI Agency"
-      ],
-      "content": "Visual: Fast-paced montage. \n1. Pouring fresh coffee (08:00 AM).\n2. Opening a massive spreadsheet.\n3. Clicking 'Automate Report' in the AI Tool.\n4. Walking the dog in the park (09:30 AM).\n5. Filming creative content in a studio (11:00 AM).\n\nVoiceover: 'How I reclaimed 5 hours of my week as a Social Media Manager. I stopped fighting my spreadsheets and started using an AI Agent. While it cleans my data and builds my client reports, I focus on the creative work I actually love.'\n\nText Overlay: 10 hours of reporting -> 10 minutes.\n\nCTA: Join the community of automated SMMs. Link in bio. #SMMlife #FreelanceTips #WorkSmarter #MarketingTools"
-    },
-    {
-      "content_type": "video_script",
-      "topic": "Feature Spotlight: The Insight Generator",
-      "target_audience": "SMB Owners",
-      "tags": [
-        "Business Growth",
-        "AI Insights",
-        "Social Media ROI",
-        "Strategy"
-      ],
-      "content": "Visual: Host holding a phone, looking at a confusing bar chart on a laptop.\n\nHost: 'Charts are great, but what do they actually MEAN for your business?'\n\nAction: Host clicks the 'Generate Insights' button in the AI Tool. A text bubble pops up: 'Your Reels about \"Sustainability\" are driving 40% more sales than your static posts. Triple down on video next month.'\n\nHost: 'Our Insight Generator doesn't just show you numbers; it tells you exactly what to post next to grow your ROI. It's like having a data scientist in your pocket.'\n\nText Overlay: From Raw Data to Real Strategy.\n\nCTA: Download our free 2026 Social Audit template to see it in action! #BusinessOwner #SocialMediaROI #AIforBusiness #MarketingStrategy"
-    },
-    {
-      "content_type": "video_script",
-      "topic": "The Broken Formula Challenge",
-      "target_audience": "Social Media Managers and Marketers",
-      "tags": [
-        "Excel Help",
-        "Engagement Challenge",
-        "Marketing Data",
-        "Problem Solving"
-      ],
-      "content": "Visual: Host pointing at a screen showing a giant #VALUE! error in a complex marketing spreadsheet.\n\nHost: 'Is your Excel formula currently breaking your brain? Don't delete the file yet!'\n\nAction: Host copies the broken formula into the AI Tool. Types: 'Why is this broken and how do I fix it for my engagement report?'\n\nVisual: The AI explains the error and provides the corrected formula. Host pastes it back, and the spreadsheet populates perfectly.\n\nHost: 'We're fixing your spreadsheet nightmares. Comment your most frustrating Excel error below and our AI will write the fix for you!'\n\nText Overlay: Comment your #ExcelNightmare below! 👇\n\nCTA: Follow for the fixes! #ExcelTips #SMMProblems #MarketingData #AIHelp"
+      "content": "\"How to go from a messy CSV export to board-ready insights in 3 steps. Step 1: Upload your raw export. Step 2: Tell the AI what you need to see. Step 3: Download your beautiful, error-free report. [Visual: Fast 1-2-3 demonstration]. No formulas, no macros, no stress. It’s the simplest way for SMBs and SMMs to prove their value and grow their brand. Ready to level up your reporting game? Start your free trial today and see how easy data mastery can be.\""
     }
   ]
 }

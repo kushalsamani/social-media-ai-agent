@@ -197,20 +197,5 @@ if __name__ == "__main__":
     Path("resources/drafts/blogs").mkdir(parents=True, exist_ok=True)
 
 
-    # for task_output in result.tasks_output:
-    #     if isinstance(task_output.raw, ContentList):
-    #         for content_obj in task_output.raw.items:
-    #             base_path = "resources/drafts"
-                
-    #             if content_obj.content_type == "blog_post":
-    #                 base_path = "resources/drafts/blogs"
-                    
-    #             filename = f"{base_path}/{content_obj.content_type}_{content_obj.topic.replace(' ', '_')}.md"
-        
-    #         with open(filename, "w", encoding="utf-8") as f:
-    #             f.write(content_obj.content)
-
-    #         print(f"Saved: {filename}")
-
     print("Marketing Crew has been successfully created and run.")
 

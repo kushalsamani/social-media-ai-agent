@@ -1,6 +1,14 @@
 market_research:
   description: >
-    Conduct market research to gather insights on industry trends, customer behavior, and competitor analysis, by researching, planning and building a market research strategy.
+    Conduct comprehensive market research for the given product.
+
+    Analyze:
+    - Industry trends
+    - Market size and growth
+    - Competitor positioning
+    - Customer pain points
+    - Market gaps and opportunities
+
     <Product Name>{product_name}</Product Name>
     <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
@@ -9,181 +17,242 @@ market_research:
     Current Date: {current_date}
 
   expected_output: >
-    A market research report that includes:  
-    - Analysis of market trends and opportunities
-    - Competitor Analysis
-    - Customer Insights and needs
-    - Recommendations for marketing marketing strategy. 
-    The report should be concise, well-structured, data-driven, and provide a clear understanding of the market landscape to inform strategic decision-making.
+    A structured market research report including:
+    - Industry overview
+    - Competitive landscape
+    - Customer analysis
+    - Strategic recommendations
+
 
 prepare_marketing_strategy:
   description: >
-    Develop a marketing strategy that aligns with company's goals and objectives. The strategy should include target audience analysis, positioning, messaging, and a detailed plan for executing marketing campaigns across various channels. The strategy should also consider budget constraints and resource allocation to ensure effective implementation.
+    Using the market research report from the previous task, develop a detailed marketing strategy.
+
+    The strategy must include:
+    - Target segmentation
+    - Positioning statement
+    - Messaging framework
+    - Channel strategy
+    - Budget allocation
+    - KPIs
+    - Weekly execution roadmap
+
     <Product Name>{product_name}</Product Name>
     <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
     <Budget>{budget}</Budget>
 
     Current Date: {current_date}
-    Use the findings from the previous task output to inform this strategy.
 
   expected_output: >
-    A detailed marketing strategy report that includes 
-    - Target audience segmentation
-    - Required budget
-    - Recommended marketing channels
-    - Plan of action for the week containing 3 blogs to write, 2 reels to film, and 5 social media posts to create.
-    - Key Performance Indicators (KPIs) to measure the success of the marketing strategy.
+    A comprehensive marketing strategy document with clear execution guidance.
 
 
 create_content_calendar:
   description: >
-    Create a content calendar that outlines topics, formats, and publishing schedule for the next 1 month. The calendar should include a mix of content types, such as blog posts, social media updates, videos, and other relevant formats to effectively engage the audience and drive brand awareness.
+    Using the marketing strategy from the previous task, create a 30-day content calendar.
+
+    The calendar must:
+    - Align with strategic themes
+    - Include Date, Platform, Format, Topic/Headline, CTA
+    - Include Blogs, Social Posts, Reels, and Email
+    - Cover 4 full weeks
+
+    Ensure calendar is logically structured and ready for downstream content generation.
+
     <Product Name>{product_name}</Product Name>
-    <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
 
     Current Date: {current_date}
 
   expected_output: >
-    A detailed content calendar that includes 
-    - Topics and formats for each content piece specified in marketing strategy
-    - Publishing schedule for the next 1 month
-    - Content types such as blog posts, social media updates, videos, and other relevant formats
-    - A plan to effectively engage the audience and drive brand awareness.
-    - Key themes and campaigns.
+    A clearly structured 30-day content calendar in table format.
+
 
 prepare_post_drafts:
   description: >
-    Prepare drafts for the content pieces outlined in the content calendar. The drafts should be well-researched, engaging, and aligned with the overall marketing strategy. Each draft should include a clear message, relevant keywords, and a call-to-action to drive audience engagement and conversions.  
+    Read the FULL content calendar generated in the previous task.
+
+    For EACH row in the content calendar:
+    - If Platform includes LinkedIn/X/Threads → content_type = "social_media"
+    - If Platform includes Newsletter → content_type = "social_media"
+    - If Platform includes Instagram/TikTok → SKIP (handled in prepare_scripts_for_reels)
+    - If Platform includes Blog → SKIP (handled in draft_blogs)
+
+    Generate ONE Content object per eligible row.
+
+    Use:
+    - Topic/Headline as topic
+    - CTA column to shape the call-to-action
+    - Marketing strategy messaging
+    - Target audience positioning
+
+    Do NOT summarize.
+    Do NOT skip eligible rows.
+    One structured output per calendar entry.
+
     <Product Name>{product_name}</Product Name>
-    <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
 
     Current Date: {current_date}
 
   expected_output: >
-    Return ONLY a valid JSON object with this exact structure:
+    Return ONLY a valid JSON object:
 
     {
       "items": [
         {
-          "content_type": "social_media | blog_post | video_script",
+          "content_type": "social_media",
           "topic": "string",
           "target_audience": "string",
           "tags": ["tag1", "tag2"],
-          "content": "full content text"
+          "content": "full formatted post text"
         }
       ]
     }
 
-    Do not include markdown.
-    Do not include explanations.
-    Do not include text before or after the JSON.
-    Return raw JSON only.
+    No markdown.
+    No explanation.
+    Raw JSON only.
 
 
-prepare_scripts_for_reels:
+prepare_scripts_for_reels: 
   description: >
-    Prepare scripts for the reels outlined in the content calendar. The scripts should be concise, engaging, and tailored to the target audience. Each script should include a clear message, relevant keywords, and a call-to-action to drive audience engagement and conversions.  
+    Read the FULL content calendar generated in the previous task.
+
+    For EACH row where Platform includes Instagram/TikTok/IG:
+    - Generate a video script (max 150 words)
+    - Use Topic/Headline as topic
+    - Shape the script around the CTA column
+    - Align with marketing strategy messaging
+    - Position for target audience
+
+    Generate ONE Content object per eligible row.
+
     <Product Name>{product_name}</Product Name>
-    <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
 
     Current Date: {current_date}
 
   expected_output: >
-    Return ONLY a valid JSON object with this exact structure:
+    Return ONLY a valid JSON object:
 
     {
       "items": [
         {
-          "content_type": "social_media | blog_post | video_script",
+          "content_type": "social_media | video_script",
           "topic": "string",
           "target_audience": "string",
           "tags": ["tag1", "tag2"],
-          "content": "full content text"
+          "content": "full formatted post text"
         }
       ]
     }
 
-    Do not include markdown.
-    Do not include explanations.
-    Do not include text before or after the JSON.
-    Return raw JSON only.
+    No markdown.
+    No explanation.
+    Raw JSON only.
+
 
 content_research_for_blogs:
   description: >
-    Conduct research for the blog posts outlined in the content calendar. The research should include gathering relevant information, statistics, and insights to support the content creation process. The research should be thorough and provide a solid foundation for creating informative and engaging blog posts that resonate with the target audience.
+    Read the FULL content calendar.
+
+    Identify ALL entries where Platform includes "Blog".
+
+    For EACH blog entry:
+    - Conduct keyword research
+    - Identify search intent
+    - Analyze competitor content
+    - Outline blog structure
+    - Provide SEO insights
+
+    Generate research insights that directly support blog drafting.
+
     <Product Name>{product_name}</Product Name>
-    <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
 
     Current Date: {current_date}
 
   expected_output: >
-    A research report that includes:
-      - Keyword analysis
-      - Competitor blog insights
-      - Industry trends and statistics
-      - Suggested blog topics and outlines.
+    A structured blog research document organized by blog topic.
+
 
 draft_blogs:
   description: >
-    Draft the blog posts outlined in the content calendar. The drafts should be well-structured, informative, and engaging, incorporating the research findings to create valuable content for the target audience. Each draft should include a clear message, relevant keywords, and a call-to-action to drive audience engagement and conversions.
+    Read:
+    - Content calendar
+    - Blog research findings
+
+    For EACH blog entry in the content calendar:
+    - Generate a full-length blog post (800–1500 words)
+    - Include SEO keywords from research
+    - Use clear headings (H2/H3)
+    - Include introduction, body, and conclusion
+    - Include CTA aligned with calendar
+    - Maintain tone consistent with marketing strategy
+
+    Generate ONE Content object per blog entry.
+
     <Product Name>{product_name}</Product Name>
-    <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
 
     Current Date: {current_date}
-    Use the blog research findings from the previous task output.
-     
+
   expected_output: >
-    Return ONLY a valid JSON object with this exact structure:
+    Return ONLY a valid JSON object:
 
     {
       "items": [
         {
-          "content_type": "social_media | blog_post | video_script",
+          "content_type": "blog_post",
           "topic": "string",
           "target_audience": "string",
           "tags": ["tag1", "tag2"],
-          "content": "full content text"
+          "content": "full blog markdown content"
         }
       ]
     }
 
-    Do not include markdown.
-    Do not include explanations.
-    Do not include text before or after the JSON.
-    Return raw JSON only.
+    No markdown fences.
+    No explanation.
+    Raw JSON only.
+
 
 seo_optimization:
   description: >
-    Optimize the blog posts for SEO to improve search engine rankings and drive organic traffic. The optimization process should include keyword research, on-page SEO techniques, and implementation of best practices to enhance the visibility of the blog posts in search engine results. Each blog post should be optimized to target relevant keywords and provide valuable content that resonates with the target audience.
+    Read the drafted blog posts from the previous task.
+
+    For EACH blog:
+    - Improve SEO keyword integration
+    - Optimize headings
+    - Improve readability
+    - Add meta title and meta description
+    - Suggest internal linking anchors
+    - Improve conversion CTA placement
+
+    Generate ONE optimized Content object per blog.
+
     <Product Name>{product_name}</Product Name>
-    <Product Description>{product_description}</Product Description>
     <Target Audience>{target_audience}</Target Audience>
 
     Current Date: {current_date}
-    Use the blog draft outputs from the previous task.
 
   expected_output: >
-    Return ONLY a valid JSON object with this exact structure:
+    Return ONLY a valid JSON object:
 
     {
       "items": [
         {
-          "content_type": "social_media | blog_post | video_script",
+          "content_type": "blog_post",
           "topic": "string",
           "target_audience": "string",
           "tags": ["tag1", "tag2"],
-          "content": "full content text"
+          "content": "fully SEO-optimized blog content"
         }
       ]
     }
 
-    Do not include markdown.
-    Do not include explanations.
-    Do not include text before or after the JSON.
-    Return raw JSON only.
+    No markdown fences.
+    No explanation.
+    Raw JSON only.
